@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootcss.css" />
+    <link rel="stylesheet" href="css/Mycss.css" />
+    <link rel="stylesheet" href="css/Mycss2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style type="text/css">
+
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('font/1.eot');
+            src: url('font/1.eot?#iefix'), url('font/woff.woff') format('woff'), url('font/woff2.woff2')
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 30px
+        }
+    </style>
+    <script type="text/javascript">
+        var duration = 750;
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > offset)
+                    $('#top-up').fadeIn(duration); else
+                    $('#top-up').fadeOut(duration);
+            });
+            $('#top-up').click(function () {
+                $('body,html').animate({ scrollTop: 0 }, duration);
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+    <div class=" pos">
+        <nav class="navbar " style="background-color:black;">
+            <div class="container-fluid">
+                <div class="">
+                    <div style="padding-left: 40px;" class=" navbar-header ">
+                        <svg class="svg1" width="85" height="27" viewBox="0 0 587.93 165"><path fill="white" d="M98.77.33L0 46.07l24.61 93.66 18.73-2.3-5.15-58.89 6.15-2.74L54.96 136l32.01-3.93-5.69-65 6.09-2.71 11.68 66.23 32.38-3.98-6.23-71.25 6.16-2.74 12.77 72.43 32.01-3.93V19.71L98.77.33zm2.32 142.05l1.63 9.22 73.42 12.24v-30.68l-75.01 9.22h-.04zm144.49-19.22v12.63h15.57a14.84 14.84 0 01-1.92 7.31 13 13 0 01-5.6 5.11 20 20 0 01-8.9 1.8 17.53 17.53 0 01-10-2.8 17.87 17.87 0 01-6.44-8.14 33.06 33.06 0 01-2.27-12.93 31.81 31.81 0 012.32-12.81 18.14 18.14 0 016.5-8 17.27 17.27 0 019.82-2.78 19.31 19.31 0 015.36.71 14.15 14.15 0 014.33 2.09 12.92 12.92 0 013.18 3.29 15.61 15.61 0 012 4.44h17.27a27.22 27.22 0 00-3.46-10.28 28.84 28.84 0 00-7.05-8.1 32.6 32.6 0 00-9.91-5.29 37.91 37.91 0 00-12.06-1.86 37.32 37.32 0 00-14 2.6 32.6 32.6 0 00-11.36 7.61 35 35 0 00-7.61 12.21 46.15 46.15 0 00-2.73 16.44q0 11.94 4.54 20.59a32.4 32.4 0 0012.69 13.27 39.84 39.84 0 0035.84.84 28.39 28.39 0 0011.67-11q4.25-7.19 4.24-17.2v-9.76zm215.03 40.81V88.53h51.67v13.96h-34.62v16.76h27.99v13.96h-27.99v16.8h34.7v13.96h-51.75zm101.83-53.3a9 9 0 00-3.54-6.64c-2.09-1.59-5-2.38-8.69-2.38a16.63 16.63 0 00-6.26 1 8.62 8.62 0 00-3.83 2.78 6.74 6.74 0 00-1.33 4 6.2 6.2 0 00.79 3.29 7.27 7.27 0 002.4 2.45 16.54 16.54 0 003.7 1.79 40.14 40.14 0 004.64 1.31l6.63 1.54a47.19 47.19 0 019.45 3.08 27.46 27.46 0 017.2 4.68 18.84 18.84 0 014.58 6.39 20.37 20.37 0 011.61 8.29 20.65 20.65 0 01-3.54 12.11 22.56 22.56 0 01-10.15 7.85 41.31 41.31 0 01-15.93 2.76 42.69 42.69 0 01-16.17-2.81 23.22 23.22 0 01-10.72-8.48q-3.83-5.66-4-14.12h16.43a10.68 10.68 0 007.05 9.94 19.37 19.37 0 007.24 1.26 18.44 18.44 0 006.66-1.09 10 10 0 004.33-3 7.22 7.22 0 001.57-4.48 6.16 6.16 0 00-1.42-4 10.86 10.86 0 00-4.14-2.81 42.07 42.07 0 00-6.89-2.14l-8.07-1.95q-9.65-2.3-15.23-7.26t-5.54-13.44a19.86 19.86 0 013.72-12.12 24.74 24.74 0 0110.33-8.11 36.74 36.74 0 0115-2.91 35.62 35.62 0 0114.92 2.91 23.43 23.43 0 019.91 8.14 21.54 21.54 0 013.6 12.12zm-113.99 53.3h-16.87v-57.35l-1.73-.02-17.04 57.37h-16.86l-16.58-57.37-2.15.02v57.35h-16.87V88.53h28.67l14.48 50.56h1.75l14.48-50.56h28.72v75.44zm-114.66 0h18.27l-25.33-75.43h-23.15l-25.37 75.43h18.3l4.93-16.54h27.42zm-28.43-29.7l8.22-27.65h3.1l8.26 27.65zm278.58-37.76a4 4 0 01-3.67-2.44 4 4 0 010-3.1 4 4 0 01.85-1.27 4.25 4.25 0 011.27-.86 4.15 4.15 0 013.1 0 4.13 4.13 0 011.27.86 4.08 4.08 0 01.86 1.27 4 4 0 010 3.1 4.08 4.08 0 01-.86 1.27 4 4 0 01-1.27.86 4 4 0 01-1.55.31zm0-1.09a2.84 2.84 0 001.47-.39 2.94 2.94 0 001.05-1 2.93 2.93 0 000-2.92 3 3 0 00-1.06-1 2.93 2.93 0 00-2.92 0 3 3 0 00-1 1 2.86 2.86 0 000 2.92 3 3 0 001 1 2.83 2.83 0 001.46.39zm-1.46-1.15V90.6h1.78a1.52 1.52 0 01.69.15 1.13 1.13 0 01.47.42 1.24 1.24 0 01.17.66 1.16 1.16 0 01-.18.66 1 1 0 01-.48.41 1.56 1.56 0 01-.7.14h-1.2v-.72h1a.52.52 0 00.36-.12.5.5 0 00.14-.37.47.47 0 00-.14-.37.52.52 0 00-.36-.12h-.55v2.93zm2.39-1.68l.82 1.68h-1.11l-.75-1.68zM282.41 1.03h17.05v75.44h-17.05zm98.02 37.72q0 12.42-4.71 21a32.67 32.67 0 01-12.79 13.17 38.57 38.57 0 01-36.31 0 32.75 32.75 0 01-12.79-13.2q-4.71-8.66-4.71-21t4.71-21.05a32.67 32.67 0 0112.75-13.14 38.65 38.65 0 0136.31 0 32.67 32.67 0 0112.79 13.17q4.71 8.64 4.71 21.05m-17.35 0a33.35 33.35 0 00-2.23-13 17.47 17.47 0 00-6.33-8 18.57 18.57 0 00-19.45 0 17.57 17.57 0 00-6.35 8 38.59 38.59 0 000 26 17.49 17.49 0 006.35 8 18.57 18.57 0 0019.45 0 17.39 17.39 0 006.33-8 33.4 33.4 0 002.23-13M246.58 50.17l8.76 26.3h18.71l-9.74-28.33h-13.23l-.79-2.44c2.52-.49 6.83-1.25 10.65-3.85a20 20 0 008.75-16.39 24.15 24.15 0 00-3.26-12.75 21.9 21.9 0 00-9.36-8.64 32.56 32.56 0 00-14.64-3H212v75.4h17.06v-26.3zm-.32-15.61a19.35 19.35 0 01-7.26 1.18h-9.94V14.88h9.91a18.68 18.68 0 017.25 1.24 9.12 9.12 0 014.4 3.7 10 10 0 011.5 5.64 9.65 9.65 0 01-1.48 5.55 8.86 8.86 0 01-4.38 3.55M382.04 1.03v14h29.3l.8 2.45c-2.48.48-6.67 1.22-10.43 3.7v55.31h16.87v-61.5h19.62v-14z"></path></svg>
+
+                        <svg width="10px" viewBox="0 0 8 5"><path fill="grey" d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg>
+
+                        <a style=" padding-left: 20px;" href="https://www.riotgames.com/vi" data-interaction-id="riotbar_app-switcher_theme-logo"><svg width="30px" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#f1f5f1"></circle><polygon points="16.42 8 6.75 12.47 9.16 21.64 11 21.41 10.49 15.65 11.1 15.38 12.13 21.27 15.27 20.89 14.71 14.53 15.3 14.27 16.45 20.75 19.62 20.36 19.01 13.38 19.61 13.12 20.86 20.2 24 19.82 24 9.89 16.42 8" fill="#050505"></polygon><polygon points="16.65 21.9 16.81 22.8 24 24 24 21 16.66 21.9 16.65 21.9" fill="#050505"></polygon></svg></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#">CHÚNG TÔI LÀ AI <svg width="10px" viewBox="0 0 8 5"><path fill="grey" d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg></a>
+                            <ul class=" dropdown-menu">
+                                <li><a href="https://www.riotgames.com/vi/who-we-are">Thông tin về Riot</a></li>
+                                <li><a href="https://www.riotgames.com/vi/diversity-and-inclusion">Đa Dạng & Hòa Nhập</a></li>
+                                <li><a href="https://www.riotgames.com/vi/who-we-are/social-impact">Tác Động Xã Hội</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#">LÀM VIỆC CÙNG CHÚNG TÔI  <svg width="10px" viewBox="0 0 8 5"><path fill="grey" d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg></a>
+                            <ul class=" dropdown-menu">
+                                <li><a href="https://www.riotgames.com/vi/work-with-us">Việc làm</a></li>
+                                <li><a href="https://www.riotgames.com/vi/work-with-us/offices">Văn Phòng</a></li>
+                                <li><a href="https://www.riotgames.com/vi/work-with-us/life-at-riot">Cuộc Sống Ở Riot</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.riotgames.com/vi/news">TIN TỨC</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-right ">
+                    <svg width="16" height="16" class="" viewBox="0 0 16 16" style="top:25px"><path d="M7.992 0C3.576 0 0 3.584 0 8s3.576 8 7.992 8C12.416 16 16 12.416 16 8s-3.584-8-8.008-8zm5.544 4.8h-2.36c-.256-1-.624-1.96-1.104-2.848A6.424 6.424 0 0113.536 4.8zM8 1.632A11.27 11.27 0 019.528 4.8H6.472A11.27 11.27 0 018 1.632zM1.808 9.6A6.594 6.594 0 011.6 8c0-.552.08-1.088.208-1.6h2.704A13.212 13.212 0 004.4 8c0 .544.048 1.072.112 1.6H1.808zm.656 1.6h2.36c.256 1 .624 1.96 1.104 2.848A6.39 6.39 0 012.464 11.2zm2.36-6.4h-2.36a6.39 6.39 0 013.464-2.848A12.52 12.52 0 004.824 4.8zM8 14.368A11.27 11.27 0 016.472 11.2h3.056A11.27 11.27 0 018 14.368zM9.872 9.6H6.128A11.77 11.77 0 016 8c0-.544.056-1.08.128-1.6h3.744C9.944 6.92 10 7.456 10 8s-.056 1.072-.128 1.6zm.2 4.448a12.52 12.52 0 001.104-2.848h2.36a6.424 6.424 0 01-3.464 2.848zM11.488 9.6c.064-.528.112-1.056.112-1.6s-.048-1.072-.112-1.6h2.704c.128.512.208 1.048.208 1.6s-.08 1.088-.208 1.6h-2.704z" fill="#E8E8E8"></path></svg>
+                    <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="form-group has-none has-feedback">
+
+                            <div class="col-sm-11 ">
+                                <input style="width:180px" type="text" class="insearch form-control  findsearch " placeholder="KẾT QUẢ">
+                                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                            </div>
+
+                        </div>
+                        <a href="https://auth.riotgames.com/login#client_id=prod-xsso-riotgames&code_challenge=JQPUmHTbB1hgdMmefQFBmIDNx__cX7khC-6oNUGaAis&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fxsso.riotgames.com%2Fredirect&response_type=code&scope=openid%20account&state=d1df19b6784c9a6c3d1fb71a80" class="btn btn-danger navbar-btn">ĐĂNG NHẬP</a>
+                    </form>
+
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid  text-center addtop-bot bg5">
+        <div class="half container">
+            <span class="bth btn-red disbot top ">TIN TỨC</span>
+            <h1 class="disbot">Hướng Dẫn Cosplay Vệ Binh Tinh Tú Phần 1</h1>
+            <span class="">
+                <svg viewBox="0 0 20 18" style="width:20px;height:18px;line-height:18px">
+                    <path d="M3 18c-1.7 0-3-1.4-3-3v-1c0-.1.1-.3.1-.4.1-.1.2-.1.4-.1H2V3c0-1.7 1.4-3 3-3h12c1.7 0 3 1.4 3 3v1.5c0 .2-.2.5-.5.5H15v10c0 1.6-1.3 3-3 3H3zM5 1c-1.1 0-2 .9-2 2v10.5h6.4c.3 0 .5.2.5.5v1c0 1.1.9 2 2 2s2-.9 2-2V3c0-.7.2-1.3.7-1.9l.1-.1H5zM1 15c0 1.1.9 2 2 2h6.7l-.1-.1c-.4-.6-.6-1.2-.6-1.9v-.5H1v.5zM17 1c-1.1 0-2 .9-2 2v1h4V3c0-1.1-.9-2-2-2z" fill="#d1363a"></path>
+                    <path d="M5.7 9h6v1h-6zm0-2h6v1h-6zm0-2h6v1h-6z" fill="#d1363a"></path>
+                </svg> <span class="fontw1"> Jul 31, 2022</span>
+            </span>
+        </div>
+
+    </div>
+    <div class="container text-center ">
+        <img class="img1" src="Images/p3.png" />
+    </div>
+    <div class="container-fluid bg6">
+        <div class=" text-center">
+            <div class="container text-left eighty ">
+                <p><a class="link1" href="http://starguardian.com/">Vệ Binh Tinh Tú</a> là những người được Ngôi Sao Đầu Tiên lựa chọn để bảo vệ ánh sáng trên toàn cõi vũ trụ. Bảo vệ thế giới theo lời hiệu triệu của Ngôi Sao Đầu Tiên quả lắm gian truân, nhưng được khoác lên mình những bộ trang phục cuốn hút bậc nhất vũ trụ thực sự cũng khá hay ho đấy chứ. Nếu bạn muốn hóa thân thành một trong những thành viên của nhóm Vệ Binh Tinh Tú mới năm nay thì đây là hướng dẫn dành cho bạn! </p>
+                <p><b>Đây là phần 1 của tài liệu hướng dẫn gồm 2 phần. Đừng quên đón xem Hướng Dẫn Cosplay Vệ Binh Tinh Tú: Phần 2 nhé </b></p>
+                <img class="separator" src="Images/line.svg" />
+                <p>Diện mạo của Vệ Binh Tinh Tú cần toát lên dáng vẻ khoa trương cùng nhiều tầng màu sắc rực rỡ, kết hợp với những chiếc ruy băng phồng to, các dải lông vũ mềm mịn và những cánh hoa bồng bềnh. Mọi yếu tố đều phải toát lên vẻ ✨diệu kỳ✨, tươi sáng và rực rỡ. Chưa hết, mỗi Vệ Binh còn sở hữu một viên ngọc, linh thú và phong cách độc đáo của riêng mình. Thông thường, phần thân áo và găng tay màu trắng của tất cả đồng phục phải được làm từ chất liệu vải óng ánh đa sắc (nhưng không có độ bóng), chẳng hạn như vải cotton sateen. Giày thường được làm từ da tổng hợp màu trắng óng ánh tựa ngọc trai. Một số chi tiết của trang phục, chẳng hạn như các tầng váy bên trong, nên được làm từ vải cotton trắng phổ thông và dày dặn. Các chi tiết hoàn thiện và loại vải chủ đạo khác bao gồm vải lụa satin, vải voan, các loại vải lấp lánh, vải spandex, và còn—à ờm, chúng tôi đã nhắc tới vải lấp lánh chưa nhỉ? </p>
+
+            </div>
+
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Kai’Sa Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p1.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Trang phục của Kai’Sa Vệ Binh Tinh Tú chủ yếu là màu dâu tím. Váy của cô nàng được làm từ chất liệu satin óng ánh với viền cứng bên ngoài. Nơ trên ngực và sau lưng của Kai’Sa cũng được làm từ chất liệu tương tự. Tấm xanh ở phần bụng, huy hiệu ở bắp tay và dải băng quanh người Kai’Sa được tạo thành từ các tấm in 3D cứng.</p>
+                <p>So với <b>(1) dạng ban đầu,</b> các tấm giáp ở cánh phản lực của Kai’Sa sau khi đã<b>(2) tiến hóa</b> trở nên rõ ràng hơn nhiều. Cô nàng cũng có thêm huy hiệu ở găng tay và giày, đồng thời chiếc nơ trắng sau lưng Kai’Sa cũng kéo dài và chuyển thành màu hồng trong suốt. Cặp <b>(3) Cánh phản lực </b> sẽ giúp Kai’Sa tăng tốc độ khi muốn tham gia giao tranh nhanh chóng hoặc là đi học muộn. Nhân tiện, hai cây <b>(4) Kiếm năng lượng</b> cũng sẽ phát sáng khi Kai’Sa đang tích tụ năng lượng. Chưa hết,<b>(5) thiết bị đọc năng lượng</b> cũng sẽ đo chỉ số sức mạnh của các sinh vật xung quanh Kai’Sa. Cuối cùng, đừng coi thường thần hộ mệnh của Kai’Sa nhé, Ina nhìn rất dễ thương nhưng cũng vô cùng đáng sợ đó. Đừng đùa với cô thỏ này!</p>
+            </div>
+            <img src="Images4/p2.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Nilah Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p3.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Trang phục của Nilah Vệ Binh Tinh Tú có 3 màu chính: màu cánh sen, xanh đậm và tím. Tất chân của cô nàng được làm từ một loại vải bắt sáng. Còn (1) Giáp Chân thì ghép từ các mảnh da nhân tạo. Nilah đi một đôi giày bệt màu nâu với chiếc váy làm từ vải satin đồng màu.  <b>(2) Thanh Urumi </b>của Nilah VBTT, thứ cô nàng dùng để dẫn dắt năng lượng từ con quỷ bị phong ấn trong <b>(3) Bình chứa,</b> cũng có màu cánh sen giống như thần hộ mệnh Dahlia của cô. Bộ cánh của Dahlia bao gồm một<b>(4) Vương Miện </b>màu vàng cánh sen và một chiếc khăn lụa màu tím buộc quanh eo.</p>
+            </div>
+            <img src="Images4/p4.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Ekko Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p5.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Với Ekko Vệ Binh Tinh Tú, màu chủ đạo của anh chàng ở <b>(1) Dạng Cơ bản</b>là màu da cam. Ở trong cổ áo là một lớp satin với họa tiết ngân hà, còn quần của cậu ta thì làm từ chất liệu thể thao hơi nhăn một chút. Rất phù hợp để bay nhảy trong dòng thời gian. Đối với <b>(2) Dạng Hàng hiệu,</b>Ekko lại đi theo màu tím và lam, anh chàng đeo một chiếc vòng cổ cứng với tất và áo thun gân đi kèm cùng một chiếc áo khoác bóng bẩy. Tất nhiên quần của Ekko Vệ Binh Tinh Tú hàng hiệu cũng không kém phần xịn xò, đó là quần túi hộp. Kết hợp với một đôi giày thể thao xịn xò nữa là hết xẩy. <b>(3) Thắt lưng</b>của Ekko cũng chuyển từ da nhân tạo màu trắng thành chất liệu kim loại màu vàng. Lúc nào Ekko cũng mang theo một <b>(4) Quyển sách</b> và nó chỉ xuất hiện trong hoạt ảnh biến về của anh chàng. Vũ khí của Ekko bao gồm một  <b>(5) Thiết bị Thời không</b>và một <b>(6) Thanh kiếm.</b> Mặc dù chỉ mới năm nhất nhưng cậu ta đã nổi tiếng là một thiên tài kỹ thuật. Nhất là khi tự tạo ra Waku - thần hộ mệnh của mình.</p>
+
+            </div>
+            <img src="Images4/p6.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Sona Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p7.png" />
+            <div class="container text-left eighty pastance ">
+                <p>
+                    Màu chủ đạo của Sona Vệ Binh Tinh Tú là xanh lục. Cô nàng cùng thần hộ mệnh của bản thân, Chiizu, đều thích đọc sách và đeo <b>(1) Kính</b>mắt to với gọng kim loại. Bộ váy và tay áo bồng bềnh của Sona được làm từ vải voan còn tất màu xanh đậm thì được làm từ một loại vật liệu giống với spandex. <b>(2) Cánh</b> của Sona cũng rất tinh tế và mỏng. Cô nàng nổi tiếng vì sự dũng cảm và khả năng sử dụng <b>(3) Etwahl </b>vô cùng điệu nghệ. </p>
+            </div>
+            <img src="Images4/p8.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Fiddlesticks Tinh Tú Lụi Tàn</h2>
+            </div>
+            <img src="Images4/p9.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Fiddlesticks không hề có màu chủ đạo hoặc là chủ đề hay gì cả. Nó là một mớ hỗn độn với đủ các màu từ trắng, hồng cho tới xanh. Với <b>(1) Cà vạt</b> và <b>(2) Găng tay</b> từ các Vệ Binh Tinh Tú…khác. Nhưng chưa hết, các mảnh cờ ở đâu ra nhỉ? Bạn cũng có thể thấy những ánh sáng hi vọng le lói trong <b>(3) Chiếc đèn</b> của hắn. Đồng thời vũ khí của Fiddlesticks cũng rất lạ, nó là một <b>(4) Lưỡi hái</b> </p>
+            </div>
+            <img src="Images4/p10.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Seraphine Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p11.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Cặp sắc cam và tím vô cùng bắt mắt là màu đại diện cho Seraphine Vệ Binh Tinh Tú. Là một ngôi sao mới nổi xịn sò nhất toàn cõi vũ trụ (không có ý chơi chữ đâu nha), phong cách thời trang của cô luôn bắt kịp thời đại. Cứ nhìn vào mái tóc, váy lụa satin xếp nếp, đôi giày đế bánh mì và các món phụ kiện của cô ấy mà xem! Ngay cả khi Seraphine không đi lưu diễn, bạn cũng có thể bắt gặp cô cầm mic trên sân khấu ở mọi thời điểm. Fan hâm mộ bự nhất của Seraphine chính là 2 linh thú Treble & Bass của cô.</p>
+            </div>
+            <img src="Images4/p12.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Orianna Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p13.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Màu xanh của pha lê tuyết đại diện cho Orianna Vệ Binh Tinh Tú. Điều mà Orianna yêu thích khi được làm con người chính là khả năng khiêu vũ và bộ đồng phục càng làm toát lên vẻ duyên dáng và thanh lịch của cô. Cô khoác trên mình một chiếc váy xòe ba lê xếp tầng được làm từ vải lụa satin hoặc vải sa ánh laser, còn găng tay thì được làm từ vải lụa satin và da tổng hợp. Một chiếc trâm hình lông vũ óng ánh đa sắc được cài thật tinh tế trên tóc của cô. Cô mang đôi tất mỏng nhiều sắc màu, đi cùng đôi giày ba lê làm từ lụa satin, còn chiếc ruy băng ngang eo thì được làm từ vải voan mềm.</p>
+            </div>
+            <img src="Images4/p.14png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Senna Vệ Binh Tinh Tú</h2>
+            </div>
+            <img src="Images4/p15.png" />
+            <div class="container text-left eighty pastance ">
+                <p>Senna có thể là một người sống đơn giản, thế nhưng đồng phục Vệ Binh Tinh Tú của cô thì không hề đơn điệu đâu nhé. Sắc tím và xanh lơ tươi tắn là màu chủ đạo của cô. Trang phục của cô được tô điểm bởi nhiều họa tiết trang trí tựa như lông vũ vô cùng bắt mắt. Chiếc váy của cô được tạo ra từ vải cotton xếp nếp chỉn chu, còn đôi tất cách điệu độc đáo thì được làm từ vải spandex hoặc satin. Vải sa ánh laser cũng sẽ là loại chất liệu hoàn hảo dành cho đôi cánh và chiếc khăn xanh lơ của cô. Ngoài ra, còn có nhiều chi tiết hoàn thiện khác trên khẩu Súng Thần Tích, trâm cài, găng tay và giày. Tên linh thú của cô là Giru.</p>
+            </div>
+            <img src="Images4/p16.png" />
+            <h2 class="text-center">Hình Ảnh Tham Khảo Bổ Sung</h2>
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Xayah Vệ Binh Tinh Tú Chuộc Tội</h2>
+            </div>
+            <img src="Images4/p17.png" />
+            <div class="container text-left eighty pastance">
+
+                <img class="separator" src="Images/line.svg" />
+                <h2 class="text-center">Rakan Vệ Binh Tinh Tú Chuộc Tội</h2>
+            </div>
+            <img src="Images4/p18.png" />
+        </div>
+
+    </div>
+    <div class="container-fluid disbot bg4 " style="padding: 0 260px;">
+        <div class="row cacul ">
+
+            <div class="col-md-10 left ">
+                <span style="width:38px;height:40px;line-height:40px">
+                    <svg width="38" height="40" viewBox="0 0 185.47 163.51">
+                        <defs></defs>
+                        <path d="M98.77 0L0 45.74l24.61 93.66 18.73-2.3-5.15-58.89 6.15-2.74 10.62 60.2 32.01-3.93-5.69-65 6.09-2.71 11.68 66.23 32.38-3.98-6.23-71.25 6.16-2.74 12.77 72.43 32.01-3.93V19.38L98.77 0zM101.09 142.05l1.63 9.22 73.42 12.24v-30.68l-75.01 9.21-.04.01z" fill="grey"></path>
+
+                    </svg>
+                </span>
+                <ul style=" margin-top: -45px; ">
+                    <li><a href="https://www.riotgames.com/vi/press"></a>BÁO CHÍ</li>
+                    <li><a href="https://www.riotgames.com/vi/security"></a>BẢO MẬT</li>
+                    <li><a href="https://www.riotgames.com/vi/legal"></a>PHÁP LÝ</li>
+                    <li><a href="https://www.riotgames.com/vi/terms-of-service"></a>ĐIỀU KHOẢN SỬ DỤNG </li>
+                    <li><a href="https://www.riotgames.com/vi/privacy-notice"></a>CHÍNH SÁCH QUYỀN RIÊNG TƯ</li>
+                    <li><a href="https://support.riotgames.com/"></a>HỖ TRỢ NGƯỜI CHƠI</li>
+                    <li><a href="https://www.riotgames.com/vi/e-verify-right-to-work"></a>XÁC MINH ĐIỆN TỬ</li>
+                    <li><a href="https://www.riotgames.com/vi/accessibility"></a>KHẢ NĂNG TIẾP CẬN</li>
+                </ul>
+
+            </div>
+            <div class="col-md-2 text-right">
+                <div class="row">
+                    <a href="https://www.facebook.com/RiotGames/" class="pad-icon" target="_blank"><span><svg style="height: 20px;" class="icon" viewBox="0 0 9 16"><path d="M5.7 16V8.7h2.4l.4-2.8H5.7V4c0-.8.2-1.4 1.4-1.4h1.5V.1C8.4.1 7.5 0 6.5 0 4.3 0 2.8 1.3 2.8 3.8v2.1H.3v2.8h2.5V16h2.9z"></path></svg></span></a>
+                    <a href="https://twitter.com/riotgames" class="pad-icon" target="_blank"><span><svg class="icon" viewBox="0 0 19 14"><path d="M19 1.5c-.7.3-1.5.5-2.3.6.8-.4 1.4-1.1 1.7-2-.8.4-1.6.7-2.5.9-.7-.6-1.7-1-2.8-1-2.2 0-3.9 1.6-3.9 3.6 0 .3 0 .5.1.8C6 4.3 3.1 2.9 1.1.9.8 1.4.6 2 .6 2.6c0 1.2.7 2.3 1.8 2.9-.6 0-1.3-.2-1.8-.4C.6 6.8 2 8.2 3.8 8.5c-.3.1-.7.1-1 .1h-.7c.5 1.4 2 2.4 3.7 2.4-1.3 1-3 1.6-4.9 1.6H0c1.8 1 3.8 1.5 6.1 1.5 7.2-.1 11.1-5.5 11-10.2v-.5c.7-.5 1.4-1.1 1.9-1.9z"></path></svg></span></a>
+                    <a href="https://www.linkedin.com/company/riot-games" class="pad-icon" target="_blank"><span><svg class="icon" viewBox="0 0 16 16"><path d="M.3 5.3h3.3V16H.3z"></path><ellipse cx="1.9" cy="1.9" rx="1.9" ry="1.9"></ellipse><path d="M16 16h-3.3v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.4-2 2.7V16H5.7V5.3h3.2v1.5C9.3 5.9 10.4 5 12 5c3.4 0 4 2.2 4 5.1V16z"></path> </svg></span></a>
+                    <a href="https://www.youtube.com/riotgames" class="pad-icon" target="_blank"><span><svg class="icon" viewBox="0 0 19 13"><path d="M18.6 2.8s-.2-1.3-.7-1.8C17.2.3 16.4.3 16 .2 13.4 0 9.5 0 9.5 0S5.6 0 3 .2c-.4 0-1.1 0-1.9.8-.5.5-.7 1.8-.7 1.8s-.2 1.5-.2 3v1.4c0 1.5.2 3 .2 3s.2 1.3.7 1.8c.7.7 1.6.7 2 .8 1.6.2 6.4.2 6.4.2s3.9 0 6.5-.2c.4 0 1.1 0 1.9-.8.6-.6.7-1.8.7-1.8s.2-1.5.2-3V5.8l-.2-3zm-11 6.1V3.7l5 2.6-5 2.6z"></path></svg></span></a>
+                </div>
+            </div>
+            <div class="row">
+                <img class="separator" src="Images/line.svg" />
+            </div>
+
+        </div>
+        <div class="">
+            <div class=" col-md-6 ">
+                <div class="row">
+                    <a class="tagA" href="#">Tùy Chọn Cookie </a><span style="padding-left:10px"> © năm 2022 bởi Riot Games, Inc. Đã đăng ký bản quyền.</span>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <a id="top-up">TỚI ĐẦU TRANG <span><svg class="icon" viewBox="0 0 15 5"><path d="M8 6.6c-.2.3-.4.4-.8.4H6c-.4-.1-.7-.2-1-.1-.6.1-1.3.1-1.9.1-.4 0-.7-.2-1.1-.1-.5.2-1.1 0-1.8.1-.1-.4-.2-.8-.2-1.3 0-.2-.1-.4.1-.6.1-.1.1-.2.2-.2s.1-.1.2-.1c.3-.1.3-.2.5-.5v-.6c.3-.5.8-.8 1-1.4 0 0 0-.1-.1-.1 0 0 0-.1.1-.1 0-.2-.1-.4-.1-.5.3-.5.7-.8 1-1.2.1-.2.3-.3.4-.4h.3c.3.4.4.8.5 1.2.5.6 1 1.2 1.6 1.8.2.3.3.5.4.8.2.4.5.7.8 1 .1.1.2.1.4.2.1 0 .3.1.4.1.1.3.2.6.2 1 0 .2.1.3.1.5z"></path> </svg></span></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

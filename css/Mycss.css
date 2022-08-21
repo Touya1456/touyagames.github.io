@@ -1,0 +1,337 @@
+﻿
+body {
+    font-family: 'Mark Pro',Arial,sans-serif
+}
+
+.navbar-black {
+    background-color: black;
+}
+
+.navbar {
+    border-radius: unset;
+    min-height: 80px;
+}
+
+.navbar-nav > ul, li {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 7.5px 16px;
+    top: 15px;
+}
+
+a {
+    color: white;
+}
+
+.nav > li > a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.nav > li > a {
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.navbar-nav > li:hover {
+    border-bottom: 4px solid #d1363a;
+    border-bottom-left-radius: 1px
+}
+
+input {
+    outline: none;
+}
+
+.has-none {
+    border-radius: 20px
+}
+
+    .has-none:hover {
+        border-color: none;
+    }
+
+.navbar-right {
+    margin-right: 0
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+img {
+    width: 100%;
+}
+
+.btn-danger {
+    color: black;
+    background: #d1363a;
+}
+
+    .btn-danger:hover {
+        color: black;
+        background: #d1363a;
+    }
+
+.btn {
+    border-radius: 20px
+}
+
+form {
+}
+
+
+
+.container {
+    width: 90%
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+
+
+.pastance {
+    padding: 80px 0;
+}
+
+.distance {
+    margin: 50px 0 100px;
+}
+
+.btn-primary {
+    background: #0bc4e2;
+    padding: 11px 27px;
+}
+
+    .btn-primary:hover {
+        box-shadow: 0 10px 45px -10px rgb(11 196 226 / 15%), 0 0 20px -10px rgb(11 196 226 / 35%), 0 10px 30px -10px rgb(11 196 226 / 25%);
+        background: #0bc4e2;
+    }
+.bg1 {
+    --color-bg-gradient: rgba(11, 196, 226, 0.2);
+    background-image: url(Images/star.jpg);
+    background-size: cover;
+    min-width:1440px;
+}
+
+.bg2 {
+    background-color: rgba(128,128,128,.2);
+    border-radius: 6px
+}
+
+.bg3 {
+    background-image: linear-gradient(to right,rgb(11 196 226 / 72%),black,black,black);
+}
+
+
+.bg4 {
+    background-color: #1f1f1f
+}
+
+
+
+
+.clip {
+    clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
+    padding-right: 0;
+    padding-left: 0;
+}
+
+ul {
+    margin-top: -10px;
+    list-style: none;
+}
+
+.pos {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+
+.disbot {
+    padding-bottom: 40px
+}
+
+.findsearch {
+    background-color: rgba(128,128,128,.2);
+    border-radius: 20px;
+}
+
+.insearch {
+    width: 180px;
+    padding: 5px 20px;
+}
+
+.soild {
+    margin-bottom: 5px;
+}
+
+    .soild:hover {
+        border: 2px solid grey;
+    }
+
+
+
+.navbar-header, .navbar-right > svg {
+    position: relative;
+    top: 20px;
+    z-index: 300;
+}
+
+.carousel-caption {
+    top: 50px;
+}
+
+
+.rigbg {
+    left: 50px;
+    width: 25%;
+}
+
+.rigsm {
+    left: 40px;
+    width: 25%;
+}
+
+.cacul {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.left > ul > li {
+    display: inline-block;
+    font-size: 11px;
+    color: grey;
+}
+
+    .left > ul > li:hover {
+        text-decoration: underline solid grey;
+    }
+
+.dropdown-menu {
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+    .dropdown-menu > li > a {
+        color: white;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-menu > li > a:hover {
+            color: white;
+            background-color: #333;
+            border-radius: 7px;
+        }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 2px;
+    background-color: #1f1f1feb;
+}
+
+.icon {
+    width: 20px;
+    line-height: 20px;
+    fill: grey;
+}
+
+    .icon:hover {
+        fill: red;
+    }
+
+.pad-icon {
+    padding: 0 4px;
+    position: relative;
+    top: 10px
+}
+
+.separator {
+    height: 2px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tagA {
+    color: grey;
+    border-right: 1px solid grey;
+}
+
+    .tagA:hover {
+        color: grey;
+    }
+
+#top-up {
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 9999;
+    color: grey;
+    text-decoration: none;
+}
+
+    #top-up:hover {
+        color: white;
+        
+    }
+
+.shapesize {
+    font-weight: 700;
+}
+
+    .shapesize > a > h3 {
+        color: grey;
+        font-weight: 700;
+    }
+
+    .shapesize > a > h1 {
+        font-weight: 800;
+    }
+
+.btnfw {
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-default {
+    background-color: lightgrey;
+}
+
+.glyphicon-black {
+    color: black;
+}
+
+.glyphicon {
+    top: 5px;
+}
+.bor {
+    border-radius: 7px;
+}
+
+.nopadlor {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.caption {
+    position: absolute;
+    padding-left: 20px;
+    bottom: 15px;
+}
+body{
+    line-height:1.5;
+}

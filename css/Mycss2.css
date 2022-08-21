@@ -1,0 +1,93 @@
+﻿.btn-red {
+    color: white;
+    padding: 5px 10px;
+    background-color: #d1363a;
+    font-weight: 600;
+}
+
+.addtop-bot {
+    padding-top: 135px;
+    padding-bottom: 450px;
+}
+
+h1 {
+    color: black;
+    font-size: 75px;
+    font-weight: 800;
+}
+
+h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+}
+h3 {
+    color: black;
+    font-weight: 800;
+}
+
+.half {
+    width: 55%;
+}
+
+.eighty {
+    width: 80%;
+}
+
+.fontw1 {
+    font-weight: 600;
+    position: relative;
+    bottom: 5px;
+}
+
+.bg5 {
+    background-color: lightgrey;
+}
+
+.img1 {
+    position: relative;
+    width: 83%;
+    bottom: 400px;
+}
+
+.bg6 {
+    position: relative;
+    width: 60%;
+    bottom: 300px;
+    font-size: 22px
+}
+
+p {
+    font-weight: 500;
+}
+
+.link1 {
+    font-weight: 600;
+    color: black;
+    text-decoration: 1px underline black;
+}
+
+    .link1:hover {
+        font-weight: 600;
+        color: black;
+        text-decoration: 1px underline red;
+    }
+
+.link2 {
+    font-weight: 600;
+    color: orangered;
+    text-decoration: 1px underline orangered;
+}
+
+    .link2:hover {
+        font-weight: 600;
+        color: black;
+        text-decoration: 1px underline black;
+    }
+
+.text-center > img {
+    padding-bottom: 20px
+}
+body {
+    background-color:#e7e6e3
+}
